@@ -1,0 +1,26 @@
+body{
+    background-color: bisque;
+}
+div{
+    background-color: azure;
+}
+.sone{
+    background-color:rgb(242, 209, 165) ;
+}
+.stwo{
+    background-color:yellow;
+}
+
+.one{
+    border: 2px solid gray;
+}
+.two{
+    border: 2px dashed gray;
+}
+.two p{
+    border: 2px dashed red;
+}
+.three{
+    color: blueviolet;
+    border: solid gray 2px;
+}

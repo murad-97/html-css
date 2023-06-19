@@ -1,0 +1,17 @@
+.para{
+    font-size:19px;
+}
+.first{
+color:gold;
+}
+.para span{
+    font-weight:bold;
+}
+
+.third{
+background-image: url(/19-june-2023/images.jpg);
+background-repeat:no-repeat;
+background-size: cover;
+color: white;
+
+}
