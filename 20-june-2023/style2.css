@@ -1,0 +1,30 @@
+
+.card{
+    display: inline-block;
+    width: 250px;
+    height: 600px;
+    border: 1px solid;
+    margin: 5px;
+    
+    vertical-align: top;
+    position: relative;
+}
+.third{
+    position: relative;
+}
+img{
+    width: 100%;
+}
+h1,p{
+    margin-left: 3px;
+    margin-right: 3px;
+}
+footer{
+    background-color: rgb(60, 60, 60);
+    font-size: 20px;
+    padding: 10px;
+    color: white;
+    position: absolute;
+    width: 230px;
+    bottom: 0;
+}

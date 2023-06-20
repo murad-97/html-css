@@ -1,0 +1,35 @@
+body{
+    background-color:beige;
+}
+
+.bigger-container{
+
+background-color: white;
+margin:auto;
+padding: 100px 0;
+width: 300px;
+
+}
+.container{
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+    margin: auto;
+    
+    
+}
+p{
+    padding-left:1px;
+    font-size: 30px;
+   
+    padding-top: 65%;
+    color: white;
+    margin: 0;
+   
+    
+}
+span{
+font-size: 11px;
+color: rgb(255, 255, 255);
+position: absolute;
+}

@@ -1,0 +1,26 @@
+.container{
+    border:2px black dashed;
+    display: inline-block;
+}
+span{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+.second{
+    background-color: green;
+}
+.relative{
+    position: relative;
+    top: 30px;
+    left: 30px;
+}
+.rel{
+    position: relative;
+}
+.absolute{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}

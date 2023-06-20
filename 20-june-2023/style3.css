@@ -1,0 +1,7 @@
+div{
+    width: 100px;
+    height: 500px;
+    background-image: url(/20-june-2023/img_5terre.jpg);
+    position: fixed;
+    right: 10px;
+}
