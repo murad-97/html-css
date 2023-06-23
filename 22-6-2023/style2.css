@@ -3,8 +3,6 @@
     padding: 0;
 }
 .container{
-    /* width: 70%; */
-    /* margin:  auto; */
     display: grid;
     grid-template-columns: 29vw 60vw 9vw;
     grid-template-rows: 20vh 79vh;
@@ -47,8 +45,6 @@
 }
 @media screen and (min-width:481px) and (max-width:768px) {
     .container{
-        /* width: 70%; */
-        /* margin:  auto; */
         display: grid;
         grid-template-columns: 100vw;
         grid-template-rows: 15vh 10vh 57vh 15vh;
@@ -72,13 +68,11 @@
         background-color: rgb(255, 255, 255);
         height: 35px;
     }
-   
 }
 @media screen and (max-width:480px){
 
 .container{
-    /* width: 70%; */
-    /* margin:  auto; */
+
     display: grid;
     grid-template-columns: 100vw;
     grid-template-rows: 15vh 30vh 37vh 15vh;
