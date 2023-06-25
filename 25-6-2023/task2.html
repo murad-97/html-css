@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      div {
+        position: absolute;
+        height: 100px;
+        width: 100px;
+        border-radius: 10px;
+        background-color: green;
+        animation-name: position;
+        animation-duration: 7s;
+        animation-iteration-count: infinite;
+        left: 200px;
+      }
+      @keyframes position {
+        0% {
+          left: 500px;
+          top: 0;
+          background-image: linear-gradient(green, aqua);
+        }
+        35% {
+          background-image: linear-gradient(skyblue, blue);
+        }
+        42% {
+          background-image: linear-gradient(blue, rgb(174, 209, 0));
+        }
+        25% {
+          left: 500px;
+          top: 200px;
+        }
+        56% {
+          background-image: linear-gradient(yellow, orange);
+        }
+        70% {
+          background-image: linear-gradient(orange, brown);
+        }
+        50% {
+          left: 0px;
+          top: 200px;
+        }
+        80% {
+          background-image: linear-gradient(rgb(255, 251, 0), gold);
+        }
+        84% {
+          background-image: linear-gradient(brown, green);
+        }
+        90% {
+          left: 0px;
+          top: 0px;
+        }
+        100% {
+          left: 50px;
+          top: 0px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div></div>
+  </body>
+</html>
